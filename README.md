@@ -15,10 +15,14 @@ Please give it a few minutes to start.
 Its coded 100% in Python, and I used PyInstaller to create the executible.
 
 
-UPDATE:
-I have come across an intresting issue. I coded the application in PyCharm, and it runs fine when compiled in it. Yet, if I tried to run it using VS Code, it would not produce the text file, not sure why.
-
 Like I said, a simple program to solve a simple problem.
 I hope you find it useful.
 
 -ryn0f1sh
+
+----------------
+UPDATE 1:
+I have come across an intresting issue. I coded the application in PyCharm, and it runs fine when compiled in it. Yet, if I tried to run it using VS Code, it would not produce the text file, not sure why.
+
+----------------
+UPDATE 2: I figured it out. Apprently, when using VS Code to compile the .py file, it automatically creates the output text file in the /home directory. When you use PyCharm to compile the .py file, it will create the output in the same location as the .py file. Looks like I need to create a version 2 to allow you choose the location of the file.
