@@ -14,6 +14,10 @@ The text file will be created in the location you run the executeable from.
 Please give it a few minutes to start.
 Its coded 100% in Python, and I used PyInstaller to create the executible.
 
+
+UPDATE:
+I have come across an intresting issue. I coded the application in PyCharm, and it runs fine when compiled in it. Yet, if I tried to run it using VS Code, it would not produce the text file, not sure why.
+
 Like I said, a simple program to solve a simple problem.
 I hope you find it useful.
 
