@@ -20,9 +20,17 @@ I hope you find it useful.
 
 -ryn0f1sh
 
+
+----------------
+UPDATE 3: There is an updated version, which is rebranded as <b>HLPR</b>.
+</br>It is part of the <b>CTF Ware</b> toolkit that is pinned on the front of this page.
+</br><b>HLPR</b> will be released as its own tool later this year (2022) from the team at <b>exeCODEable</b>.
+
+----------------
+UPDATE 2: I figured it out. Apprently, when using VS Code to compile the .py file, it automatically creates the output text file in the /home directory. When you use PyCharm to compile the .py file, it will create the output in the same location as the .py file. Looks like I need to create a version 2 to allow you choose the location of the file.
+
 ----------------
 UPDATE 1:
 I have come across an intresting issue. I coded the application in PyCharm, and it runs fine when compiled in it. Yet, if I tried to run it using VS Code, it would not produce the text file, not sure why.
 
-----------------
-UPDATE 2: I figured it out. Apprently, when using VS Code to compile the .py file, it automatically creates the output text file in the /home directory. When you use PyCharm to compile the .py file, it will create the output in the same location as the .py file. Looks like I need to create a version 2 to allow you choose the location of the file.
+
